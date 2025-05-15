@@ -10,11 +10,14 @@
 
 ## Arquitectura de Carpetas
 
-minilang_compiler/
-├── lexer/ # Análisis léxico
-├── syntactic/ # Análisis sintáctico
-├── semantic/ # Análisis semántico
-├── codegen/ # Generación de código Python
-├── sample_programs/ # Ejemplos de código MiniLang
-├── main.py # Punto de entrada del compilador
-└── README.md # Documentación del proyecto
+## Arquitectura de Carpetas
+
+| Carpeta / Archivo   | Descripción                                  |
+|--------------------|----------------------------------------------|
+| `lexer/`           | Análisis léxico (tokenización)               |
+| `syntactic/`       | Análisis sintáctico (parser)                  |
+| `semantic/`        | Análisis semántico (verificación de variables)|
+| `codegen/`         | Generación de código Python                    |
+| `sample_programs/` | Archivos de ejemplo en MiniLang                |
+| `main.py`          | Punto de entrada del compilador                |
+| `README.md`        | Documentación del proyecto                      |
