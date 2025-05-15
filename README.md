@@ -8,7 +8,7 @@
 
 
 
-## Arquitectura de Carpetas
+
 
 ## Arquitectura de Carpetas
 
